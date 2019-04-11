@@ -1,1 +1,7 @@
+swift监听模式：当一个对象状态发生改变，所有依赖于他订阅者都会发生改变（收到状态改变的通知）。
 
+角色一：Observable（被观察者）
+角色二：WxEmsObservable（微信公众号）
+角色三：Observer（观察者->抽象：抽象类、接口（协议））
+角色四：KennyObserver（Kenny同学）
+角色五：LilyObserver（Lily同学）
